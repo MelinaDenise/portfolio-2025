@@ -1,0 +1,10 @@
+Clase 3 – Ejemplo de práctica
+
+1. Ver rama actual:
+git branch
+
+2. Cambiar master a main:
+git branch -M main
+
+3. Revisar historial gráfico:
+gitk
