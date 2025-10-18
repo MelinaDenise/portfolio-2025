@@ -1,49 +1,32 @@
-# Portfolio 2025
-Clase 2 Agregando contenido de segundo semestre
-Texto de portfolio:
+# Portfolio Personal 2025 – Melina Denise Gallo
 
-1. Portada (PORTFOLIO)
+Este es mi **portfolio personal** realizado durante el segundo semestre de la tecnicatura. Incluye los titulos de los contenidos de las 10 clases de Git y GitHub, así como ejemplos prácticos de mis conocimientos.
 
-2. Sobre mí
-Mi nombre es Melina Denise Gallo.
-Trabajo como soporte técnico en una billetera virtual, 
-y elegí formarme para ampliar mis conocimientos, fortalecer mi experiencia laboral 
-y enfrentar nuevos desafíos.
-Estoy muy agradecida por haber superado los desafíos iniciales de la programación, 
-lo que me ha impulsado a continuar mi formación y a confirmar que esta es mi pasión. 
-Mi objetivo es seguir creciendo como desarrolladora, ampliar mis conocimientos 
-y participar en proyectos cada vez más complejos.
+## Contenido del portfolio
 
-3. Educación
-Soy parte del grupo RebeldeBug, donde trabajamos en fundamentos de programación usando Pseint, aprendimos Python desde lo básico y JavaScript. Actualmente continúo mi formación y desarrollo profesional en programación.
-Durante mi formación en RebeldeBug, superé desafíos en programación que me impulsaron a ser autodidacta, encontrar y solucionar mis propios errores. Este proceso me ha confirmado mi deseo de seguir creciendo en este área. Mis conocimientos incluyen: 
-- Fundamentos de programación con Pseint.
- - Programación en Python (nivel básico)
-- JavaScript para desarrollo web.
+1. **Carátula** – Imagen principal del portfolio.
+2. **Sobre mí** – Presentación personal y objetivos.
+3. **Educación** – Formación académica y cursos.
+4. **Experiencia Laboral** – Resumen de trabajo.
+5. **Mi trabajo** – Proyectos y prácticas realizadas.
+6. **Gracias** – Cierre.
 
-4. Experiencia laboral
-Trabajo como soporte técnico en una billetera virtual. 
-Elegí formarme para ampliar mis conocimientos, 
-fortalecer mi experiencia laboral y enfrentar nuevos desafíos.
+## Resumen de las Clases
 
-5. Mi trabajo
-Me especializo en atención al cliente, soluciones financieras, 
-optimización de procesos y soluciones, 
-seguimiento de casuísticas y aplicación de nuevos estándares.
-En mi tiempo libre dicto clases particulares de inglés y matemáticas.
+- **Clase 1:** Uso de GitHub, creación de repositorios, README.md y primeros commits.  
+- **Clase 2:** Configuración de llaves SSH, ramas y sincronización con GitHub.  
+- **Clase 3:** Cambio de rama principal de master a main, uso de gitk y commits gráficos.  
+- **Clase 4:** Primer push La creación de las SSH es necesario solo una vez por cada computadora
+- **Clase 5:** Git tag y versiones en GitHub 
+- **Clase 6:** Error con los tags 
+- **Clase 7:** Si un tag es imposible generarlo dos veces ¿Cómo es que existe el error de dos tags con el mismo nombre? 
+- **Clase 8:** Manejo de ramas en Git Hub 
+- **Clase 9:** Configurar múltiples colaboradores en un repositorio de GitHub
+- **Clase 10:** Flujo de trabajo profesional Haciendo merge de ramas de desarrollo a main 
 
-6. Cierre (GRACIAS)
-Este es mi portfolio hasta hoy ;)
+## Tecnologías utilizadas
 
-“Clase 3 – master → main / gitk”.
-
-## Clase 3 – Reflexión sobre Git & GitHub
-
-El escritor argentino Julio Cortázar afirma que las palabras tienen color y peso. En GitHub, términos como `master` y `main` también tienen importancia.
-
-Desde el 1 de octubre de 2020, GitHub cambió la rama principal por defecto de `master` a `main`. Esto se hace para eliminar términos históricos que puedan ser sensibles.
-
-- **Cuando creamos un repositorio desde la nube** → la rama principal será `main` por defecto.  
-- **Cuando creamos un repositorio local con `git init`** → puede aparecer `master`. Para cambiarlo a `main`:
-```bash
-git branch -M main
+- HTML5
+- CSS3
+- Git y GitHub
+- VS Code
