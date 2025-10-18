@@ -34,3 +34,16 @@ En mi tiempo libre dicto clases particulares de inglés y matemáticas.
 
 6. Cierre (GRACIAS)
 Este es mi portfolio hasta hoy ;)
+
+“Clase 3 – master → main / gitk”.
+
+## Clase 3 – Reflexión sobre Git & GitHub
+
+El escritor argentino Julio Cortázar afirma que las palabras tienen color y peso. En GitHub, términos como `master` y `main` también tienen importancia.
+
+Desde el 1 de octubre de 2020, GitHub cambió la rama principal por defecto de `master` a `main`. Esto se hace para eliminar términos históricos que puedan ser sensibles.
+
+- **Cuando creamos un repositorio desde la nube** → la rama principal será `main` por defecto.  
+- **Cuando creamos un repositorio local con `git init`** → puede aparecer `master`. Para cambiarlo a `main`:
+```bash
+git branch -M main
