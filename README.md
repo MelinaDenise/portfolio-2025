@@ -30,3 +30,49 @@ Este es mi **portfolio personal** realizado durante el segundo semestre de la te
 - CSS3
 - Git y GitHub
 - VS Code
+
+# Portfolio 2025 — Melina Denise Gallo
+
+Este repositorio contiene mi portfolio hecho con **Vue 3 + Vite**.  
+Estado actual: proyecto funcional y subido al repositorio. Para visualizar la versión pública, ver la sección "Deploy".
+
+## Cómo ejecutar localmente
+
+1. Instalar dependencias:
+npm install
+2. Ejecutar en desarrollo:
+npm run dev
+3. Generar build para produccion:
+npm run build
+El build se genera en la carpeta dist/.
+
+Deploy (publicación)
+
+He publicado este build en Netlify para que el profesor pueda ver el proyecto en línea.
+
+Opciones de despliegue usadas:
+
+Netlify Drop: subir la carpeta dist/ directamente en https://app.netlify.com/drop
+
+— enlace público proporcionado en la entrega (ver comentario del commit o mensaje).
+
+Alternativamente, se puede conectar el repositorio a Netlify para deploy automático:
+
+Build command: npm run build
+
+Publish directory: dist
+
+Nota sobre rutas e imágenes
+
+Durante la entrega tuve problemas con rutas absolutas al publicar en GitHub Pages.
+Para asegurar compatibilidad con distintos hosts estáticos, la configuración de Vite quedó con base: './' (vite.config.js).
+
+Las imágenes están en public/images/ y se referencian en los componentes como:
+<img src="/images/1.png" alt="...">
+
+Observaciones para el docente
+
+El proyecto funciona correctamente en local y está subido al repositorio.
+Si el enlace público muestra alguna ruta rota, favor de revisar la versión contenida en dist/ (adjuntada en Netlify) o ejecutar localmente con npm install y npm run build.
+
+Contacto: melinadenisegallo@gmail.com
