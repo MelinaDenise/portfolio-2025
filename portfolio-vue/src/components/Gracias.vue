@@ -1,6 +1,6 @@
 <template>
   <section class="center-section">
-    <img src="/images/6.png" alt="Gracias" />
+    <img :src="`${import.meta.env.BASE_URL}images/6.png`" alt="Gracias" />
     <h2>¡Gracias por visitar!</h2>
     <p>Contacto: melinadenisegallo@gmail.com</p>
   </section>

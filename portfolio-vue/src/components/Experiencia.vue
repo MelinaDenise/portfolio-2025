@@ -1,6 +1,6 @@
 <template>
   <section class="center-section">
-    <img src="/images/4.png" alt="Experiencia" />
+    <img :src="`${import.meta.env.BASE_URL}images/4.png`" alt="Experiencia" />
     <h2>Experiencia</h2>
   </section>
 </template>
