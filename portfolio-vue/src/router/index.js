@@ -1,16 +1,20 @@
 import { createRouter, createWebHistory } from 'vue-router'
+
 import Caratula from '@/components/Caratula.vue'
 import SobreMi from '@/components/SobreMi.vue'
 import Educacion from '@/components/Educacion.vue'
 import Experiencia from '@/components/Experiencia.vue'
-import Gracias from '@/components/Gracias.vue'
+import Trabajo from '@/components/Trabajo.vue'
+import Cierre from '@/components/Cierre.vue'
 
 const routes = [
-  { path: '/', name: 'caratula', component: Caratula },
-  { path: '/sobre-mi', name: 'sobre-mi', component: SobreMi },
-  { path: '/educacion', name: 'educacion', component: Educacion },
-  { path: '/experiencia', name: 'experiencia', component: Experiencia },
-  { path: '/gracias', name: 'gracias', component: Gracias }
+  { path: '/', redirect: '/caratula' },
+  { path: '/caratula', component: Caratula },
+  { path: '/sobre-mi', component: SobreMi },
+  { path: '/educacion', component: Educacion },
+  { path: '/experiencia', component: Experiencia },
+  { path: '/trabajo', component: Trabajo },
+  { path: '/cierre', component: Cierre }
 ]
 
 const router = createRouter({

@@ -1,16 +1,16 @@
 <template>
-  <section class="experiencia">
-    <img src="/images/4.png" alt="Experiencia laboral" />
+  <section class="trabajo">
+    <img src="/images/5.png" alt="Mi trabajo" />
   </section>
 </template>
 
 <style scoped>
-.experiencia {
+.trabajo {
   width: 100%;
   height: 100vh;
   overflow: hidden;
 }
-.experiencia img {
+.trabajo img {
   width: 100%;
   height: 100%;
   object-fit: cover;

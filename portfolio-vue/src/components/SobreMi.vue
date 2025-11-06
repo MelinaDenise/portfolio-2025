@@ -1,17 +1,19 @@
 <template>
-  <section class="center-section">
-    <img :src="`${import.meta.env.BASE_URL}images/2.png`" alt="SobreMi" />
-    <h2>Sobre mí</h2>
+  <section class="sobre-mi">
+    <img src="/images/2.png" alt="Sobre mí" />
   </section>
 </template>
 
 <style scoped>
-section img {
-  max-width: 70%;
-  max-height: 56vh;
-  border-radius: 12px;
-  margin-bottom: 1rem;
-  object-fit: contain;
+.sobre-mi {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
-h2 { margin: 0; }
+.sobre-mi img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 </style>
+

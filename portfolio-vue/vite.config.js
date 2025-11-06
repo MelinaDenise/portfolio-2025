@@ -3,7 +3,8 @@ import vue from '@vitejs/plugin-vue'
 import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
-  base: '/portfolio-2025/',
+  // Usamos rutas relativas para que funcione bien en Netlify Drop y otros hosts.
+  base: './',
   plugins: [vue()],
   resolve: {
     alias: {
