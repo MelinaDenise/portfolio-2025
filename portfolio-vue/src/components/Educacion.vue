@@ -1,6 +1,6 @@
 <template>
   <section class="center-section">
-    <img src="/portfolio-2025/images/3.png" />
+    <img src="/images/3.png" />
     <h2>Educación</h2>
   </section>
 </template>

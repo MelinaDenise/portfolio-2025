@@ -1,6 +1,6 @@
 <template>
   <section class="center-section">
-    <img src= "/portfolio-2025/images/1.png" />
+    <img src= "/images/1.png" />
     <h1>Melina Denise Gallo</h1>
     <p>Portfolio 2025</p>
   </section>

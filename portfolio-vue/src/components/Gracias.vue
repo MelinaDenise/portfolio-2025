@@ -1,6 +1,6 @@
 <template>
   <section class="center-section">
-    <img src="/portfolio-2025/images/6.png" />
+    <img src="/images/6.png" />
     <h2>¡Gracias por visitar!</h2>
     <p>Contacto: melinadenisegallo@gmail.com</p>
   </section>
