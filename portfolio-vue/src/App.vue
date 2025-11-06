@@ -7,8 +7,8 @@
         <li><router-link to="/sobre-mi">Sobre mí</router-link></li>
         <li><router-link to="/educacion">Educación</router-link></li>
         <li><router-link to="/experiencia">Experiencia</router-link></li>
-        <li><router-link to="/mi-trabajo">Mi trabajo</router-link></li>
-        <li><router-link to="/gracias">Gracias</router-link></li>
+        <li><router-link to="/trabajo">Trabajo</router-link></li>
+        <li><router-link to="/cierre">Cierre</router-link></li>
       </ul>
     </nav>
 
