@@ -1,6 +1,6 @@
 <template>
   <section class="center-section">
-    <img src="/images/2.png" />
+    <img src="/images/2.png" alt="SobreMi" />
     <h2>Sobre mí</h2>
   </section>
 </template>

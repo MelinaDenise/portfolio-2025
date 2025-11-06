@@ -1,6 +1,6 @@
 <template>
   <section class="center-section">
-    <img src="/images/3.png" />
+    <img src="/images/3.png" alt="Educacion" />
     <h2>Educación</h2>
   </section>
 </template>
